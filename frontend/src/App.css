@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #007bff;
+  }
+  
+  .text-input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px;
+    width: 80%;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #ff3030;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Updated "Show Stats" button styles */
+  .show-stats-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px;
+  }
+  
+  .show-stats-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Updated Stats component styles */
+  .stats {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  .stats-table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 16px auto;
+  }
+  
+  .stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .refresh-stats {
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 16px;
+  }
+  
+  .refresh-stats:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .contact-table {
+    width: 100%;
+  }
+  
+  .contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .phone-details {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+  }
+  
+  .phone-details-table {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin: 16px auto;
+  }
+  
+  .phone-details-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Add a hover effect for the contact name */
+  .contact-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
