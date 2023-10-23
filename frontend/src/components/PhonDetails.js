@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PhoneForm(props) {
+function PhoneDetails(props) {
   const onSubmit = async (event) => {
     event.preventDefault();
     const phoneNumber = event.target.phoneNumber.value;
@@ -43,4 +43,4 @@ function PhoneForm(props) {
   );
 }
 
-export default PhoneForm;
+export default PhoneDetails;
